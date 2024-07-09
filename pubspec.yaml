@@ -10,13 +10,13 @@ environment:
   flutter: ">=2.2.0"
 
 dependencies:
-  agora_rtc_engine: ^6.3.0
-  agora_rtm: ^1.5.5
+  agora_rtc_engine:  
+  agora_rtm:  
   flutter:
     sdk: flutter
-  http: ">=0.13.1 <2.0.0"
-  lints: ">=1.0.1 <3.0.1"
-  permission_handler: ^11.0.0
+  http:  
+  lints:  
+  permission_handler:  
 
 dev_dependencies:
   flutter_test:
