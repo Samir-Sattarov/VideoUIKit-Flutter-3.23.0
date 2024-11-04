@@ -10,10 +10,18 @@ environment:
   flutter: ">=2.2.0"
 
 dependencies:
-  agora_rtc_engine: ^6.3.2
+  # iris_method_channel: ^2.1.1
+  # agora_rtc_engine: ^6.3.2
+  agora_rtc_engine:
+    git:
+      url: https://github.com/Samir-Sattarov/agora_flutter_sdk.git
   agora_rtm:
+    git:
+      url: https://github.com/Samir-Sattarov/agora_rtm.git
+
   flutter:
     sdk: flutter
+
   http:  
   lints:  
   permission_handler:  
